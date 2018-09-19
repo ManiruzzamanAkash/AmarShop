@@ -1,0 +1,22 @@
+
+
+
+.form-inline{
+	display: inline;
+}
+.menu-list a.is-active {
+	color: rgb(250, 250, 250);
+}
+.menu-list a {
+	border-radius: 2px;
+	color: cadetblue;
+	display: block;
+	padding: 0.5em 0.75em;
+}
+aside{
+	padding-left: 20px;
+}
+.admin-left-sidebar {
+    background: $primary;
+    margin-bottom: -50px;
+}

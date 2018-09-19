@@ -1,0 +1,15 @@
+[2018-01-03 04:32:12] production.ERROR: Directory name must not be empty. {"exception":"[object] (RuntimeException(code: 0): Directory name must not be empty. at F:\\xampp\\htdocs\\AmarShop\\vendor\\symfony\\finder\\Iterator\\RecursiveDirectoryIterator.php:52)
+[stacktrace]
+#0 F:\\xampp\\htdocs\\AmarShop\\vendor\\symfony\\finder\\Iterator\\RecursiveDirectoryIterator.php(52): RecursiveDirectoryIterator->__construct('', 4096)
+#1 F:\\xampp\\htdocs\\AmarShop\\vendor\\symfony\\finder\\Finder.php(666): Symfony\\Component\\Finder\\Iterator\\RecursiveDirectoryIterator->__construct('', 4096, false)
+#2 F:\\xampp\\htdocs\\AmarShop\\vendor\\symfony\\finder\\Finder.php(568): Symfony\\Component\\Finder\\Finder->searchInDirectory('')
+#3 F:\\xampp\\htdocs\\AmarShop\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(87): Symfony\\Component\\Finder\\Finder->getIterator()
+#4 F:\\xampp\\htdocs\\AmarShop\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(64): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->getConfigurationFiles(Object(Illuminate\\Foundation\\Application))
+#5 F:\\xampp\\htdocs\\AmarShop\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#6 F:\\xampp\\htdocs\\AmarShop\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(213): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#7 F:\\xampp\\htdocs\\AmarShop\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(162): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#8 F:\\xampp\\htdocs\\AmarShop\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#9 F:\\xampp\\htdocs\\AmarShop\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#10 F:\\xampp\\htdocs\\AmarShop\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#11 {main}
+"} 

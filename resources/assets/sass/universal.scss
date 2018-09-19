@@ -1,0 +1,61 @@
+
+/** 
+ ** v-cloak for page rendering before full compile 
+ **/
+[v-cloak] .v-cloak--block {
+  display: block;
+}
+[v-cloak] .v-cloak--inline {
+  display: inline;
+}
+[v-cloak] .v-cloak--inlineBlock {
+  display: inline-block;
+}
+[v-cloak] .v-cloak--hidden {
+  display: none;
+}
+[v-cloak] .v-cloak--invisible {
+  visibility: hidden;
+}
+.v-cloak--block,
+.v-cloak--inline,
+.v-cloak--inlineBlock {
+  display: none;
+}
+
+/** 
+ ** End v-cloak
+**/
+
+address {
+    border-left: 2px solid $primary;
+    padding: 10px;
+}
+
+.pagination li {
+  background: $primary;
+  margin-right: 5px;
+  color: $white;
+}
+
+.pagination li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: white;
+    padding: 10px 20px 10px 20px;
+}
+
+.pagination li.active, .pagination li span {
+  background: $black;
+  padding: 10px 20px 10px 20px;
+}
+.pagination li span {
+  padding: 10px 20px 10px 20px;
+}
+.is-width-60{
+	width: 60px;
+}
+.panel-block.is-active {
+    background: lightgreen;
+}

@@ -1,0 +1,137 @@
+
+/**********************************************
+ ************ Navigation Bar OVERRIDES ******************
+ **********************************************/
+
+ .navbar.is-primary {
+  height: 4.5rem;
+}
+.navbar-brand img {
+  height: 4.5rem;
+  width: 30px;
+}
+.navbar-item img {
+  max-height: 1.75rem;
+}
+.navbar-burger {
+  height: 4.5rem;
+  width: 4.5rem;
+}
+
+.navbar-item, .navbar-link {
+  color: $white;
+}
+a.navbar-item:hover, a.navbar-item.is-active, .navbar-link:hover, .navbar-link.is-active {
+  background-color: $primary-dark;
+  color: $white;
+}
+
+.navbar-dropdown {
+  background-color: $primary;
+  border-top: 1px solid $primary;
+}
+.navbar-dropdown {
+  margin-top: -7px;
+  background-color: #F3DECD;
+  border-top: 3px solid #ffc107;
+}
+
+.navbar-dropdown a.navbar-item {
+    padding-right: 3rem;
+    color: $primary;
+}
+
+@media screen and (min-width: 1024px){
+  .navbar-dropdown.is-boxed {
+    border-radius: 5px;
+    width: 250px;
+  }
+}
+
+.navbar-item .navbar-content img {
+  width: 30px;
+  max-height: 220px;
+}
+
+
+
+@media screen and (max-width: 1023px){
+  .navbar-menu {
+    background-color: $dark-blue-black;
+  }
+  .navbar-dropdown {
+    background-color: $dark-blue-black;
+    border-top: 1px solid $dark-blue-black-light;
+  }
+}
+
+
+@media screen and (max-width: 1023px){
+  .navbar-menu.is-active {
+    display: block;
+    z-index: 2000;
+    position: relative;
+  }
+}
+
+.navbar .tag:not(body) {
+  border-radius: 12px;
+  margin-left: 1px;
+}
+
+.navbar-item.is-mega {
+  position: static;
+
+  .is-mega-menu-title {
+    margin-bottom: 0;
+    padding: .375rem 1rem;
+  }
+}
+
+
+/**********************************************
+ ************ TEXT OVERRIDES ******************
+ **********************************************/
+ .is-muted{
+   color: $grey-light;
+
+   &:hover{
+    color: $grey;
+  }
+}
+
+mark {
+    padding: 10px;
+    color: blue;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+
+
+
+
+/**********************************************
+ ************ Functions OVERRIDES ******************
+ **********************************************/
+ .b-tabs .tabs {
+  margin-bottom: 20px;
+}
+.footer {
+  border-top: 4px solid $primary;
+  padding: 1rem;
+  margin-top: 50px;
+}
+a.active.panel-block {
+    background: $green;
+}
+.hero-body {
+    padding: 1rem 1.5rem;
+}
+
+/**********************************************
+ ************ Tooltip OVERRIDES ******************
+ **********************************************/
+ .tooltip .field {
+  width: 570px;
+}

@@ -1,0 +1,40 @@
+
+@import "node_modules/bulma/sass/utilities/initial-variables";
+
+
+
+
+
+/***********************************
+ ** Colors
+ ***********************************/
+ $primary: #FF0D3D;
+ $primary-invert: #FFF;
+ $primary-dark: #f30030;
+
+ $warning: #FFC107;
+
+ $light-background: aliceblue;
+
+
+ $dark-blue-black: #263238;
+ $dark-blue-black-light: #37474F;
+
+ $blue: #72d0eb;
+
+ $error-color: #ff3232;
+ $danger: #ff3232;
+ $link: $red;
+
+
+
+
+$panel-heading-background-color: $light-background;
+$body-background-color : $white;
+
+$family-serif: "Merriweather", "Georgia", serif;
+
+
+
+
+$family-primary: $family-serif;

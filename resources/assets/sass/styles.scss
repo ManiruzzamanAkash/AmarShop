@@ -1,0 +1,201 @@
+
+/**---------------------
+ * Static Styles
+ *---------------------*/
+ .section-title {
+  color: $primary;
+  font-weight: bold;
+}
+section {
+  border-bottom: 1px solid #dddddd;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.form-inline {
+  display: inline;
+}
+div#app {
+  background: aliceblue;
+}
+.tabs li.is-active {
+  background: #28e4a5;
+}
+.is-blueviolet{
+  background: blueviolet;
+  color: #fff;
+}
+.is-blueviolet:hover{
+  background: #7e2be2;
+  color: #fff;
+  border: 1px solid $primary
+}
+.p-10{
+  padding: 10px;
+}
+.p-20{
+  padding: 20px;
+}
+.fa-cart-size {
+    font-size: 40px;
+}
+
+/**---------------------
+ * Home Page Styles
+ *---------------------*/
+ .division {
+ }
+ .category{
+
+ }
+ .category img{
+   width: 100%;
+   max-width: 200px;
+ }
+ .link-bigger{
+  display: block;
+  width: 100%;
+  height: auto;
+  min-height: 150px;
+  font-size: 1.7rem;
+  text-align: center;
+  background: $light-background;
+}
+.link-bigger img{
+  padding: 2px;
+}
+.link-bigger-transition{
+  -webkit-transition: .5s all;
+  transition: .5s all;
+}
+.link-bigger-transition:hover{
+  opacity: 1;
+  border: 2px solid gray;
+  box-shadow: 5px 8px 22px -3px #9E9E9E;
+  -webkit-transition: .2s all;
+  transition: .2s all;
+}
+
+.top-link1{
+  background: #FFE173;
+}
+.top-link2{
+  background: #A4ECFC;
+}
+.top-link3{
+  background: #23d160;
+}
+
+.link-full-display {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  font-size: 1rem;
+  min-height: 100px;
+}
+.link-full-display:hover {
+  // background: #4CAF50;
+  transition: .2s all;
+}
+.link-div-big {
+  background: #c6ecff;
+}
+.link-div-big img:hover {
+  width: 110%;
+  opacity: 0.9;
+  transition: .5s all;
+}
+
+
+/**---------------------
+ * Product Page Styles
+ *---------------------*/
+ .products-image {
+    max-width: 150px;
+}
+.add-to-cart-form input {
+    width: 60px;
+}
+ .product-single {
+  background: $light-background;
+  margin-bottom: 20px;
+  transition: .2s all;
+  cursor: pointer;
+}
+.product-single:hover {
+  background: #cbe1f5;
+  border: 2px solid;
+  box-shadow: 5px 8px 22px -3px #9E9E9E;
+}
+
+
+/** Product Slideshow using vue **/
+.fade-transition {
+  transition: all 0.8s ease;
+  overflow: hidden;
+  visibility: visible;
+  opacity: 1;
+  position: absolute;
+}
+.fade-enter, .fade-leave {
+  opacity: 0;
+  visibility: hidden;
+}
+.product-image-gallery{
+  border: 1px solid gray;
+  padding: 5px;
+}
+.product-image-gallery img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.widget {
+  margin-bottom: 30px;
+}
+
+
+
+/**---------------------
+ * Unauthorized Pages Styles
+ *---------------------*/
+ .loginForm-hidden{
+  display: none;
+}
+.loginForm-visible{
+  display: block;
+}
+
+
+
+
+/**---------------------
+ * Footer Styles
+ *---------------------*/
+ .footer {
+  background-color: #263238;
+  color: white;
+}
+.footer a, .footer h3{
+  color: white;
+}
+
+/**---------------------
+ * User Page Styles
+ *---------------------*/
+ .change-button{
+  z-index: 20;
+}
+img.change-profile{
+  border: 1px solid $primary;
+}
+.uploaded-image {
+  max-height: 100px;
+  border: 2px solid gray;
+}
+
+/**---------------------
+ * Cart Page Styles
+ *---------------------*/
+.carts .input {
+    width: 60px;
+}
